@@ -1,0 +1,7 @@
+A música do convite fica aqui com o nome: musica.mp3 (já cortada no 0:31 e com volume baixo)
+
+Dicas:
+- Formato MP3, de preferência com até 5 MB (carrega mais rápido no celular).
+- Para a música começar a partir de um trecho (ex: pular a introdução),
+  altere MUSIC_START no início do arquivo script.js.
+- Enquanto não houver música aqui, o botão de música simplesmente não aparece.
