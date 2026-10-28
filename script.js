@@ -4,7 +4,7 @@
 const WEDDING = new Date('2027-01-10T16:00:00-03:00');
 
 // ---------- Música ----------
-// O arquivo audio/musica.mp3 já foi preparado começando no 0:31 da música original
+// O arquivo musica.mp3 já foi preparado começando no 0:31 da música original
 // e com o volume reduzido dentro do próprio arquivo (assim fica baixinho também no iPhone,
 // que não deixa o site controlar o volume).
 const MUSIC_START = 0;     // segundo do arquivo em que a música começa

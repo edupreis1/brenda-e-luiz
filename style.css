@@ -4,16 +4,16 @@
    ========================================================= */
 
 /* ---------- fontes (hospedadas junto com o site) ---------- */
-@font-face { font-family: 'Pinyon Script'; src: url('fonts/pinyon-script-latin-400-normal.woff2') format('woff2'); font-weight: 400; font-display: swap; }
-@font-face { font-family: 'Italiana'; src: url('fonts/italiana-latin-400-normal.woff2') format('woff2'); font-weight: 400; font-display: swap; }
-@font-face { font-family: 'Cormorant Garamond'; src: url('fonts/cormorant-garamond-latin-300-normal.woff2') format('woff2'); font-weight: 300; font-display: swap; }
-@font-face { font-family: 'Cormorant Garamond'; src: url('fonts/cormorant-garamond-latin-400-normal.woff2') format('woff2'); font-weight: 400; font-display: swap; }
-@font-face { font-family: 'Cormorant Garamond'; src: url('fonts/cormorant-garamond-latin-500-normal.woff2') format('woff2'); font-weight: 500; font-display: swap; }
-@font-face { font-family: 'Cormorant Garamond'; src: url('fonts/cormorant-garamond-latin-300-italic.woff2') format('woff2'); font-weight: 300; font-style: italic; font-display: swap; }
-@font-face { font-family: 'Cormorant Garamond'; src: url('fonts/cormorant-garamond-latin-400-italic.woff2') format('woff2'); font-weight: 400; font-style: italic; font-display: swap; }
-@font-face { font-family: 'Montserrat'; src: url('fonts/montserrat-latin-300-normal.woff2') format('woff2'); font-weight: 300; font-display: swap; }
-@font-face { font-family: 'Montserrat'; src: url('fonts/montserrat-latin-400-normal.woff2') format('woff2'); font-weight: 400; font-display: swap; }
-@font-face { font-family: 'Montserrat'; src: url('fonts/montserrat-latin-600-normal.woff2') format('woff2'); font-weight: 600; font-display: swap; }
+@font-face { font-family: 'Pinyon Script'; src: url('pinyon-script-latin-400-normal.woff2') format('woff2'); font-weight: 400; font-display: swap; }
+@font-face { font-family: 'Italiana'; src: url('italiana-latin-400-normal.woff2') format('woff2'); font-weight: 400; font-display: swap; }
+@font-face { font-family: 'Cormorant Garamond'; src: url('cormorant-garamond-latin-300-normal.woff2') format('woff2'); font-weight: 300; font-display: swap; }
+@font-face { font-family: 'Cormorant Garamond'; src: url('cormorant-garamond-latin-400-normal.woff2') format('woff2'); font-weight: 400; font-display: swap; }
+@font-face { font-family: 'Cormorant Garamond'; src: url('cormorant-garamond-latin-500-normal.woff2') format('woff2'); font-weight: 500; font-display: swap; }
+@font-face { font-family: 'Cormorant Garamond'; src: url('cormorant-garamond-latin-300-italic.woff2') format('woff2'); font-weight: 300; font-style: italic; font-display: swap; }
+@font-face { font-family: 'Cormorant Garamond'; src: url('cormorant-garamond-latin-400-italic.woff2') format('woff2'); font-weight: 400; font-style: italic; font-display: swap; }
+@font-face { font-family: 'Montserrat'; src: url('montserrat-latin-300-normal.woff2') format('woff2'); font-weight: 300; font-display: swap; }
+@font-face { font-family: 'Montserrat'; src: url('montserrat-latin-400-normal.woff2') format('woff2'); font-weight: 400; font-display: swap; }
+@font-face { font-family: 'Montserrat'; src: url('montserrat-latin-600-normal.woff2') format('woff2'); font-weight: 600; font-display: swap; }
 
 :root {
   --ivory: #f7f3ec;
@@ -378,7 +378,7 @@ section { padding: 100px 22px; position: relative; }
 .countdown-section { color: #fff; text-align: center; overflow: hidden; padding: 120px 22px; }
 .countdown-bg {
   position: absolute; left: 0; right: 0; top: -20%; bottom: -20%;
-  background: linear-gradient(rgba(40,32,22,.55), rgba(40,32,22,.6)), url('img/danca.jpg') center / cover no-repeat;
+  background: linear-gradient(rgba(40,32,22,.55), rgba(40,32,22,.6)), url('danca.jpg') center / cover no-repeat;
   will-change: transform;
 }
 .countdown-inner { position: relative; z-index: 2; }
@@ -459,7 +459,7 @@ section { padding: 100px 22px; position: relative; }
 .rsvp { text-align: center; color: #fff; padding: 130px 24px; overflow: hidden; }
 .rsvp-bg {
   position: absolute; left: 0; right: 0; top: -20%; bottom: -20%;
-  background: linear-gradient(rgba(45,36,24,.6), rgba(45,36,24,.7)), url('img/beijo.jpg') center 30% / cover no-repeat;
+  background: linear-gradient(rgba(45,36,24,.6), rgba(45,36,24,.7)), url('beijo.jpg') center 30% / cover no-repeat;
   will-change: transform;
 }
 .rsvp-inner { position: relative; z-index: 2; max-width: 520px; margin: 0 auto; }
