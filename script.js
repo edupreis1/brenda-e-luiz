@@ -1,11 +1,10 @@
 // =========================================================
-// Convite Brenda & Luiz — 10.01.2027 às 16:00 (horário de Brasília)
+// Convite Brenda & Luiz — 10.01.2027 às 15:30 (horário de Brasília)
 // =========================================================
-const WEDDING = new Date('2027-01-10T16:00:00-03:00');
+const WEDDING = new Date('2027-01-10T15:30:00-03:00');
 
 // ---------- Música ----------
-// O arquivo musica.mp3 já foi preparado começando no 0:31 da música original
-// e com o volume reduzido dentro do próprio arquivo (assim fica baixinho também no iPhone,
+// O arquivo musica.mp3 já foi preparado com o volume reduzido dentro do próprio arquivo (assim fica baixinho também no iPhone,
 // que não deixa o site controlar o volume).
 const MUSIC_START = 0;     // segundo do arquivo em que a música começa
 const MUSIC_VOLUME = 1;    // volume de 0 a 1 (o arquivo já está baixinho)
@@ -399,7 +398,7 @@ update();
   const params = new URLSearchParams({
     action: 'TEMPLATE',
     text: 'Casamento Brenda & Luiz 💍',
-    dates: '20270110T190000Z/20270111T030000Z', // 16h às 00h (Brasília)
+    dates: '20270110T183000Z/20270111T030000Z', // 15h30 às 00h (Brasília)
     details: 'Confirme sua presença: https://assessoriavip.com.br/rsvpUnico/84057d800a8011f1b6b959c5c760da98',
     location: 'Av. Ver. Belarmino Pereira de Carvalho, 1313 - Bairro do Cardoso, Mairiporã - SP, 07618-830'
   });
