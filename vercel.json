@@ -1,0 +1,6 @@
+{
+  "trailingSlash": false,
+  "rewrites": [
+    { "source": "/convite", "destination": "/index.html" }
+  ]
+}
