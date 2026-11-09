@@ -586,8 +586,8 @@ footer { text-align: center; padding: 60px 20px 90px; background: var(--grain), 
   .date-block { margin-top: 12px; }
   .db-mid b { font-size: 2.6rem; }
   .hero-place { margin-top: 12px; }
-  .hero-rsvp { margin-top: 18px; }
-  .scroll-down { display: none; }
+  .scroll-down { bottom: 24px; }
+  .scroll-down small { display: none; }
 }
 @media (max-height: 680px) {
   .arch { width: clamp(100px, 29vw, 170px); }
