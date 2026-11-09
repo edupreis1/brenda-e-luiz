@@ -311,7 +311,8 @@ svg.draw * { stroke-dasharray: 1; stroke-dashoffset: 1; transition: stroke-dasho
 .db-mid { display: flex; flex-direction: column; align-items: center; line-height: 1; }
 .db-mid small { font-family: var(--f-sans); font-size: .6rem; letter-spacing: .3em; text-transform: uppercase; color: var(--gold-dark); padding-left: .3em; }
 .db-mid b { font-family: var(--f-display); font-weight: 400; font-size: 3.2rem; line-height: 1; margin: 4px 0; }
-.hero-place { font-family: var(--f-sans); font-size: .7rem; letter-spacing: .32em; text-transform: uppercase; color: var(--muted); margin-top: 18px; padding-left: .32em; }
+.hero-venue { font-family: var(--f-display); font-size: clamp(1.35rem, 6vw, 1.7rem); letter-spacing: .06em; color: var(--ink); margin-top: 18px; line-height: 1.2; }
+.hero-place { font-family: var(--f-sans); font-size: .66rem; letter-spacing: .32em; text-transform: uppercase; color: var(--muted); margin-top: 6px; padding-left: .32em; }
 
 /* entrada da capa (após abrir o envelope) */
 .h-in { opacity: 0; transform: translateY(18px); transition: opacity 1.1s ease var(--d, 0s), transform 1.1s cubic-bezier(.2,.7,.2,1) var(--d, 0s); }
@@ -585,7 +586,8 @@ footer { text-align: center; padding: 60px 20px 90px; background: var(--grain), 
   .hero-line { font-size: 1.05rem; margin-top: 4px; max-width: 340px; }
   .date-block { margin-top: 12px; }
   .db-mid b { font-size: 2.6rem; }
-  .hero-place { margin-top: 12px; }
+  .hero-venue { margin-top: 12px; }
+  .hero-place { margin-top: 4px; }
   .scroll-down { bottom: 24px; }
   .scroll-down small { display: none; }
 }
